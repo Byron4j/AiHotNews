@@ -1,5 +1,16 @@
 # AGENTS.md
 
+## Trigger command: `输出今日内容`
+
+When the user says **"输出今日内容"** , execute the full pipeline in one shot:
+
+1. **Research** — Fetch AI news from qbitai.com (WebFetch) + The Verge/overseas sources (curl via ClashX Pro proxy). Cover both previous-day late-breakers and current-day morning releases.
+2. **Write** — Generate `YYYY-MM-DD-daily-ai-hotspots.md` following the daily hotspots format. Comply with all editorial guidelines.
+3. **Format** — Run `bash scripts/format-publish.sh <post.md> all` to generate WeChat (HTML), Zhihu (MD), 小红书 (TXT), CSDN (MD), 掘金 (MD).
+4. **Push** — `git add . && git commit -m "daily: YYYY-MM-DD AI hotspots" && git push`
+
+Do all four steps without pausing. Do NOT just write the markdown — the platform files must exist too.
+
 ## Before anything else
 
 Read `editorial-guidelines.md` — it is the "constitution" of this blog. Every post must comply.
