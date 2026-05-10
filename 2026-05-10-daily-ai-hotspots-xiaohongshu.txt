@@ -1,21 +1,21 @@
 🤖 AI Hot News 今日速报
 
 📌 核心主线：
-5月9-10日，海外AI圈出现多起重大事件：Cloudflare裁减1,100名员工，与此同时AI使用量暴增600%——这是AI替代人工的又一个上市公司级别案例；Musk诉Altman案第二周遭The Verge回顾总结，Mira Murati证词披露Altman解雇细节、Helen Toner/Tasha McCauley视频作证；OpenAI发布Code
+5月10日（周日），AI新闻节奏放缓但质量不减：浙大校友团队利用AI突破32年未变的拉姆齐数（Ramsey number）下界，将AI for Math的能力边界从"辅助解已知题"推向"发现新数学事实"；高德ABot体系模型以0.829分夺冠AGIBot全球挑战赛，为中国空间智能+具身AI赢得一席。海外侧，Cloudflare裁员1,100人（AI使用量+6
 
+🔥 浙大校友用AI突破32年拉姆齐数下界
+🔥 高德ABot夺冠AGIBot全球挑战赛
 🔥 Cloudflare裁员1,100人
 🔥 Musk诉Altman案第二周回顾
 🔥 OpenAI发布Codex Chrome扩展
-🔥 Meta员工"悲惨"：AI监控+裁员+Agent内卷
-🔥 微软曾担心OpenAI"跑路"到AWS
-🔥 阶跃StarVoice登顶AA评测中国第一
+🔥 Meta员工"凄惨"
 🔥 美图RoboNeo首创Agent Teams
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-💡 AI替代就业：从"新闻标题"到"上市公司操作"
-💡 Agent操作域扩展：终端→浏览器→桌面→物理世界
-💡 语音AI赛道：三股力量同向发力
+💡 AI for Math：从解题到发现
+💡 AI替代就业：临界月到来
+💡 Agent操作域扩展：从终端到物理世界
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
