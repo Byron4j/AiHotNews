@@ -1,0 +1,10 @@
+# Data cache from daily fetch
+_data/
+
+# macOS
+.DS_Store
+
+# Temp files
+*.tmp
+*.swp
+*.swo
