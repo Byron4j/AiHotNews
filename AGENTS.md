@@ -95,6 +95,9 @@ The `posts/`, `_drafts/`, and `quick-takes/` subdirectories described in the gui
 After running `format-publish.sh`:
 - **微信公众号**: Open `post-wechat.html`, copy HTML, paste into 公众号后台 → 新建图文 → HTML模式
 - **知乎**: Copy `post-zhihu.md`, paste into 知乎文章编辑器
+- **小红书**: Copy `post-xiaohongshu.txt`, paste into 小红书 → 发布笔记 (建议添加 AI 相关配图，话题标签已内置)
+- **CSDN**: Copy `post-csdn.md`, paste into CSDN Markdown编辑器 → 发布
+- **掘金**: Copy `post-juejin.md`, paste into 掘金 Markdown编辑器 → 发布
 - **GitHub**: Automatically committed and pushed by `daily-pipeline.sh --continue`
 
 ### Remote repository
