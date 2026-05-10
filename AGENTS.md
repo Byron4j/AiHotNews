@@ -104,7 +104,7 @@ The `posts/`, `_drafts/`, and `quick-takes/` subdirectories described in the gui
 ### Publishing to platforms
 
 After running `format-publish.sh`:
-- **微信公众号**: Open `post-wechat.html`, copy HTML, paste into 公众号后台 → 新建图文 → HTML模式
+- **微信公众号**: Open `post-wechat.md`, paste into 公众号后台 Markdown 编辑器 (配合一键排版插件使用)
 - **知乎**: Copy `post-zhihu.md`, paste into 知乎文章编辑器
 - **小红书**: Copy `post-xiaohongshu.txt`, paste into 小红书 → 发布笔记 (建议添加 AI 相关配图，话题标签已内置)
 - **CSDN**: Copy `post-csdn.md`, paste into CSDN Markdown编辑器 → 发布

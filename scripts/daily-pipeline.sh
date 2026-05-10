@@ -58,7 +58,7 @@ if [ "${1:-}" = "--continue" ] || [ "${2:-}" = "--continue" ]; then
     # Step 4: Git commit & push
     echo "▶ Step 4/4: Git commit & push..."
     cd "$ROOT_DIR"
-    git add "$POST_FILE" "${POST_FILE%.md}-wechat.html" "${POST_FILE%.md}-zhihu.md" 2>/dev/null || true
+    git add "$POST_FILE" "${POST_FILE%.md}-wechat.md" "${POST_FILE%.md}-zhihu.md" "${POST_FILE%.md}-xiaohongshu.txt" "${POST_FILE%.md}-csdn.md" "${POST_FILE%.md}-juejin.md" 2>/dev/null || true
     git add "_data/$DATE/" 2>/dev/null || true
     git add . 2>/dev/null || true
     git commit -m "daily: $DATE AI hotspots digest" 2>/dev/null || echo "  (nothing new to commit)"
@@ -69,7 +69,10 @@ if [ "${1:-}" = "--continue" ] || [ "${2:-}" = "--continue" ]; then
     echo "║  Pipeline complete!                      ║"
     echo "║                                          ║"
     echo "║  Publish now:                            ║"
-    echo "║  • WeChat: ${POST_FILE%.md}-wechat.html   ║"
-    echo "║  • Zhihu:  ${POST_FILE%.md}-zhihu.md      ║"
+    echo "║  • WeChat: ${POST_FILE%.md}-wechat.md    ║"
+    echo "║  • Zhihu:  ${POST_FILE%.md}-zhihu.md     ║"
+    echo "║  • 小红书: ${POST_FILE%.md}-xiaohongshu.txt ║"
+    echo "║  • CSDN:   ${POST_FILE%.md}-csdn.md      ║"
+    echo "║  • 掘金:   ${POST_FILE%.md}-juejin.md    ║"
     echo "╚══════════════════════════════════════════╝"
 fi
