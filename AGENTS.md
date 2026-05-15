@@ -11,6 +11,8 @@ When the user says **"输出今日内容"** , execute the full pipeline in one s
 
 Do all four steps without pausing. Do NOT just write the markdown — the platform files must exist too.
 
+**Important**: Every daily post must include a 「市场局势分析」 section covering: (a) primary market funding events, (b) secondary market stock/sector moves, (c) labor market AI impact signals, (d) geopolitical capital flows. See §12.4 in editorial-guidelines.md.
+
 ## Before anything else
 
 Read `editorial-guidelines.md` — it is the "constitution" of this blog. Every post must comply.
