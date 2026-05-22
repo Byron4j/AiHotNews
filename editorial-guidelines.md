@@ -253,55 +253,36 @@ reading_time: {x 分钟}
 
 ## 12. 日报研究规范（Daily Research Workflow）
 
-### 12.1 信息源矩阵
+### 12.1 信息源原则：海外一手优先，杜绝二手中文聚合
 
-日报编辑**必须**从以下多平台交叉获取信息，不得仅依赖单一来源：
+**核心原则**：日报所有内容必须源自海外一手信源或官方公告。禁止以国内自媒体（量子位、机器之心、36氪等）的中文聚合报道作为写作素材——这会产生事实失真和抄袭嫌疑。国内自媒体仅可用于**快速发现故事线索**，写作时**必须追溯到原始海外/官方来源**。
 
-**海外主流平台（优先获取一手信息）**
+**一手信源矩阵（写作素材来源）**
 
-| 平台 | 用途 | 访问方式 |
-|------|------|----------|
-| x.com (Twitter) | 官方公告、研究员动态、AI实验室突发新闻 | 本地 ClashX Pro 代理 + curl |
-| Reddit | r/MachineLearning / r/singularity / r/LocalLLaMA 社区反应和一手发现 | 本地 ClashX Pro 代理 + curl |
-| YouTube | 主题演讲、产品演示、技术深度解读 | 本地 ClashX Pro 代理 + curl |
-| The Verge | AI 产业深度报道、政策/法律跟踪 | 本地代理 + WebFetch/curl |
-| TechCrunch | 融资、创业公司、产品发布 | 本地代理 + WebFetch/curl |
-| CNBC | AI与资本市场交叉报道 | 本地代理 + WebFetch/curl |
-| The Information | 独家深度、企业内幕 | 本地代理 + WebFetch/curl |
-| Bloomberg | 全球市场、交易监管、大宗交易 | 本地代理 + WebFetch/curl |
+| 优先级 | 平台类型 | 具体来源 | 访问方式 |
+|--------|----------|----------|----------|
+| P0 官方 | 公司博客/公告 | Anthropic Blog, OpenAI Index, Google DeepMind Blog, DeepSeek/Kimi/阿里/百度官方渠道 | WebFetch/curl |
+| P0 官方 | 开源仓库 | GitHub Trending/Releases, arxiv | WebFetch/curl |
+| P1 海外 | 社交媒体一手 | x.com (官方号/研究员), Reddit (r/ML/r/singularity/r/LocalLLaMA) | curl + ClashX Pro |
+| P1 海外 | 科技媒体 | The Verge, TechCrunch, CNBC, The Information, Bloomberg | curl + ClashX Pro |
+| P2 补充 | YouTube | 主题演讲、产品演示 | curl + ClashX Pro |
 
-**交易市场新闻平台（与AI产业关联的交易/监管事件）**
-
-| 平台 | 用途 | 访问方式 |
-|------|------|----------|
-| CNBC | 美股AI板块行情、SEC监管动态 | 本地代理 + WebFetch/curl |
-| 东方财富 / 雪球 | A股/港股 AI板块、中概券商监管新闻 | WebFetch |
-| 36氪 | 中国AI公司二级市场动态、港美股IPO | WebFetch |
-| 财联社 | 券商监管、跨境交易政策 | WebFetch |
-
-**交易热点覆盖范围**：
-- 券商监管事件（如老虎证券、富途等受罚/发牌/并购）
-- AI相关股票重大涨跌（单日波动>5%的市场异动）
-- 港美股IPO（AI公司上市、定价、首日表现）
-- 跨境资本管制/宽松政策变动
-- SEC/证监会与AI相关的行政处罚
-
-**国内平台**
-
+**交易市场新闻（与AI关联的交易/监管）**
 | 平台 | 用途 |
 |------|------|
-| 量子位（qbitai.com） | 国内 AI 产业动态首发，海外新闻中文解读 |
-| 机器之心（jiqizhixin.com） | AI 技术深度研究、行业通讯 |
-| 36氪（36kr.com） | 创业公司融资、商业落地报道 |
+| CNBC / Bloomberg | 美股AI板块行情、SEC监管、IPO |
+| Reuters | 全球市场、跨境监管 |
 
-**官方一手来源（优先于所有聚合渠道）**
+**交易覆盖范围**：券商监管事件（罚款/发牌/并购）、AI股票异动（>5%）、港美股IPO、跨境资本政策、SEC/证监会AI相关处罚。
 
-- Anthropic 官方博客（anthropic.com/blog）
-- OpenAI 官方博客（openai.com/index）
-- Google DeepMind 博客
-- DeepSeek、Kimi (Moonshot)、百度、阿里千问官方发布渠道
-- GitHub 开源仓库（GitHub Trending、Release Notes）
-- arxiv 论文预印本
+**国内平台的使用规则（仅用于线索发现，不作素材）**
+
+> ⚠️ 国内自媒体平台（量子位、机器之心、36氪、财联社等）**仅可用于快速扫描当天AI故事线索**。
+> 写作时必须做到：
+> 1. 根据线索追溯到原始海外/官方来源
+> 2. 以原始来源的信息为写作素材
+> 3. 引用来源标注为原始来源（非国内聚合）
+> 4. **绝对禁止**直接翻译/改写国内自媒体报道
 
 ### 12.2 时间窗口
 

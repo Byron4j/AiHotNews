@@ -4,8 +4,8 @@
 
 When the user says **"输出今日内容"** , execute the full pipeline in one shot:
 
-1. **Research** — Fetch AI news from qbitai.com (WebFetch) + The Verge/overseas sources (curl via ClashX Pro proxy). Cover both previous-day late-breakers and current-day morning releases.
-2. **Write** — Generate `YYYY-MM-DD-daily-ai-hotspots.md` following the daily hotspots format. Comply with all editorial guidelines.
+1. **Research** — Fetch from overseas first-hand sources (The Verge, TechCrunch, CNBC, x.com, Reddit, official blogs) via curl + ClashX Pro. May scan qbitai for clue discovery only — tracing back to original source before writing.
+2. **Write** — Generate `YYYY-MM-DD-daily-ai-hotspots.md` with original analysis based on overseas primary sources. Comply with all editorial guidelines. **NEVER** translate/rewrite Chinese self-media articles.
 3. **Format** — Run `bash scripts/format-publish.sh <post.md> all` to generate WeChat (HTML), Zhihu (MD), 小红书 (TXT), CSDN (MD), 掘金 (MD).
 4. **Push** — `git add . && git commit -m "daily: YYYY-MM-DD AI hotspots" && git push`
 
@@ -60,6 +60,8 @@ When compiling daily hotspots, prioritize and seek first-hand overseas sources f
 - **DeepSeek, Kimi (Moonshot), 百度, 阿里千问** — major Chinese AI players with rapid release cycles
 
 Target overseas sources directly (The Verge, TechCrunch, CNBC, The Information, official blogs) when they are within allowed domains. Do not rely solely on Chinese-aggregated coverage for these core entities.
+
+**Anti-plagiarism rule**: Chinese self-media platforms (qbitai, jiqizhixin, 36kr) may be scanned for clue discovery only. All writing MUST be based on original overseas/official sources. NEVER translate or rewrite Chinese self-media articles. Trace every story back to its primary source.
 
 ## Daily research workflow
 
