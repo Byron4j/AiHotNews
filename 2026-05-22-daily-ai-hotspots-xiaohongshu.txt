@@ -1,11 +1,13 @@
 🤖 AI Hot News 今日速报
 
 📌 核心主线：
-5月22日（周五），海内外重磅密集轰炸：DeepSeek融资飙至700亿（两周前500亿）+Code编程Agent确认由ACM金牌崔添翼挂帅；英伟达Q1数据中心收入暴增92%——AI芯片需求远未触顶；Anthropic正与微软洽谈使用AI芯片，拟打破AWS/Google双绑格局；Aleksander Madry（OpenAI核心安全研究员）离职；特朗普搁置A
+5月22日（周五），海内外重磅密集轰炸：Anthropic被曝每年向Musk的Colossus数据中心支付$150亿算力费用——这是AI基础设施史上最大的单笔年付合同；英伟达Q1数据中心收入暴增92%（AI芯片需求远未触顶）；OpenAI Sora因不稳定导致AI电影错失戛纳首映，暴露视频生成模型的可靠性危机；Anthropic同步与微软洽谈AI芯片合作，拟
 
-🔥 DeepSeek融资飙至700亿，Code编程Agent即将发布
+🔥 Anthropic每年向Musk数据中心支付$150亿
+🔥 OpenAI Sora不稳定致AI电影错失戛纳
 🔥 英伟达Q1数据中心营收暴涨92%
-🔥 Anthropic正与微软洽谈使用AI芯片
+🔥 DeepSeek融资飙至700亿，Code编程Agent即将发布
+🔥 Anthropic正与微软洽谈AI芯片合作
 🔥 Aleksander Madry离开OpenAI
 🔥 特朗普搁置AI行政令
 🔥 李飞飞发布空间智能ImageNet
