@@ -2,19 +2,22 @@
 
 
 > **TL;DR**
-> 5月22日（周五），重磅消息密集：DeepSeek首轮融资额从天价升级为天价plus——最新报道称已达700亿（此前报道500亿），同时DeepSeek Code编程Agent确认由ACM金牌得主崔添翼挂帅、即将发布；李飞飞团队发布空间智能评测基准——被誉为"空间智能的ImageNet时刻"；智谱发布最新模型，在代码生成速度上称"顶流里最快"。产业端：AI短剧实现80集3天拍完（Token消耗降70%）、免展智能狂揽F轮融资+4100万用户。核心主线：中国AI不仅在大模型追赶，更在编程Agent、空间智能、短剧生产等应用层全面开火。
+> 5月22日（周五），海内外重磅密集轰炸：DeepSeek融资飙至700亿（两周前500亿）+Code编程Agent确认由ACM金牌崔添翼挂帅；英伟达Q1数据中心收入暴增92%——AI芯片需求远未触顶；Anthropic正与微软洽谈使用AI芯片，拟打破AWS/Google双绑格局；Aleksander Madry（OpenAI核心安全研究员）离职；特朗普搁置AI行政令。中国侧：李飞飞发布"空间智能ImageNet"基准、智谱代码速度称"顶流里最快"、AI短剧80集3天拍完。核心主线：AI算力竞赛白热化（Nvidia+92%）、AI人才流动加速（Madry离职）、中美AI监管博弈升级。
 
 ## 一、今日热点速览
 
 | 事件 | 时间 | 主体 | 核心影响 |
 |------|------|------|----------|
 | DeepSeek融资飙至700亿，Code编程Agent即将发布 | 5月22日 | DeepSeek | 中国大模型最大融资再刷新纪录；崔添翼挂帅DeepSeek Code |
+| 英伟达Q1数据中心营收暴涨92% | 5月22日 | Nvidia | AI芯片需求远未触顶；全年指引再上调 |
+| Anthropic正与微软洽谈使用AI芯片 | 5月22日 | Anthropic/Microsoft | 可能打破AWS/Google双绑格局，AI算力供应链大洗牌 |
+| Aleksander Madry离开OpenAI | 5月22日 | OpenAI | 核心安全高管离职，OpenAI安全团队动荡持续 |
+| 特朗普搁置AI行政令 | 5月22日 | 白宫 | 据称"不喜欢某些条款"，美国AI监管进程延迟 |
 | 李飞飞发布空间智能ImageNet | 5月22日 | 李飞飞/Stanford | 具身空间智能评测标准化，SpaceNet或成新赛道基准 |
 | 智谱最新模型"顶流里最快" | 5月22日 | 智谱AI | 代码生成速度在中国大模型中称第一 |
 | AI短剧：80集3天拍完，Token消耗降70% | 5月22日 | MovieFlow Studio | 影视AI化进入工业化量产阶段 |
-| 兔展智能F轮融资+4100万用户 | 5月22日 | 兔展智能 | Agent中间层赛道获F轮，企业AI能力池化 |
+| 免展智能F轮融资+4100万用户 | 5月22日 | 免展智能 | Agent中间层赛道获F轮，企业AI能力池化 |
 | 联想Q4营收利润双创新高 | 5月22日 | 联想集团 | AI PC时代全面爆发，调整后净利+42.1% |
-| 雷军发布小米39万最贵SUV | 5月22日 | 小米汽车 | 特斯拉前厂长宋钢加盟后首款产品 |
 
 ## 二、热点详解
 
@@ -73,6 +76,28 @@
 
 **Agent中间层的赛道浮现**：当每家企业都有数十个AI工具、数百个Agent需要协调时，需要一个中间层来统一调度。兔展智能的F轮验证了这一赛道的商业可行性。
 
+### 6. 英伟达Q1数据中心收入暴增92%：AI芯片需求远未触顶
+
+**核心事件**：英伟达2027财年Q1财报显示，数据中心业务收入同比增长92%。这是继2025财年数据中心爆炸式增长之后的又一季超预期增长。
+
+**为什么"92%"值得关注**：市场此前担忧AI芯片需求见顶——Cerebras上市、AMD发力、大厂自研芯片增加了竞争。92%的增长彻底打破了"需求见顶"论。Nvidia同时上调全年指引，意味着AI基础设施军备竞赛远未结束。与Samsung万亿市值（5月7日）、Cerebras IPO（5月16日）、黄仁勋日均投资20亿（5月12日）形成完整AI芯片繁荣叙事链。
+
+### 7. Anthropic与微软洽谈AI芯片合作：算力联盟大洗牌
+
+**核心事件**：The Verge独家报道，Anthropic正与微软洽谈使用其AI芯片。如果合作落地，将打破Anthropic当前AWS+Google双绑格局。
+
+**产业格局**：当前Google→Anthropic（$400亿）、Amazon→Anthropic（$80亿）、Microsoft→OpenAI（$130亿）。如果Microsoft+Anthropic合作落地，将形成"交叉持股+交叉算力"新格局——Anthropic同时获得Google TPU+AWS Trainium+Microsoft芯片，任何单一供应商都无法"掐断"Anthropic的训练。
+
+### 8. Aleksander Madry离开OpenAI：安全人才流失持续
+
+**核心事件**：The Verge报道，OpenAI核心安全研究员Aleksander Madry宣布离职。Madry是OpenAI"准备框架"（Preparedness Framework）关键制定者之一。
+
+OpenAI安全团队离职清单（自2023年）：Ilya Sutskever（2024.5，创办SSI）、Jan Leike（2024.5，加入Anthropic）、超级对齐团队多人（2024年解散重组）、Aleksander Madry（2026.5）。Musk庭审中安全主席Kolter曾披露"仅约200人从事安全工作"——持续人才流失正在被庭审放大。
+
+### 9. 特朗普搁置AI行政令
+
+**核心事件**：The Verge援引政策线报道，特朗普延迟签署AI行政令，原因是"不喜欢某些条款"。白宫未公布具体反对内容。此举延迟了美国联邦AI监管立法进程，但五大AI公司自愿评估机制不受影响。
+
 ---
 
 ## 三、市场局势分析
@@ -94,10 +119,18 @@
 
 | 信号 | 影响 |
 |------|------|
-| 联想Q4营收利润双创新高 | AI PC需求拉动，净利+42.1%，AI终端市场验证 |
-| 小米最贵SUV 39万 | AI+汽车融合，自动驾驶终端的消费级验证 |
-| 小米前特斯拉厂长加盟 | AI制造人才流动信号 |
-| DeepSeek 700亿+Code | 中国编程Agent估值参照系建立 |
+| 英伟达Q1数据中心+92% | AI芯片需求远未触顶，全年指引上调，盘后股价反应积极 |
+| 联想Q4营收利润双创新高 | AI PC需求拉动，净利+42.1% |
+| SpaceX IPO预期（招股书公开） | AI+太空复合体可能成为下半年最大科技IPO |
+| Meta"AI投资抵消裁员成本"备忘录 | AI降本正在从概念进入公司财务策略 |
+
+### 3.3 交易与监管
+
+| 事件 | 影响 |
+|------|------|
+| 特朗普搁置AI行政令 | 美国联邦AI监管法律进程延迟，自愿评估机制暂不受影响 |
+| Anthropic+微软芯片谈判 | 可能打破AI算力双绑格局，影响AWS/Google的AI投资估值 |
+| Madry离开OpenAI | 安全人才持续流向Anthropic等竞品，OpenAI治理压力未减 |
 
 ### 3.3 AI应用层全面开火
 
@@ -131,11 +164,15 @@
 - [联想集团Q4营收利润双创新高 — 量子位](https://www.qbitai.com/2026/05/422127.html)
 - [39万！雷军发布小米最贵SUV — 量子位](https://www.qbitai.com/2026/05/422088.html)
 - [SpaceX招股书公开 — 量子位](https://www.qbitai.com/2026/05/420761.html)
-- [OpenAI非数学模型自主突破80年数学难题 — 量子位](https://www.qbitai.com/2026/05/422032.html)
+- [Nvidia's Q1 2027 data center revenue jumped 92% — The Verge](https://www.theverge.com/tech/935020/nvidias-q1-2027-data-center-revenue-jumped-92-percent-from-last-year)
+- [Anthropic is in talks to use Microsoft's AI chips — The Verge](https://www.theverge.com/ai-artificial-intelligence/935688/anthropic-is-in-talks-to-use-microsofts-ai-chips-too)
+- [Aleksander Madry is leaving OpenAI — The Verge](https://www.theverge.com/ai-artificial-intelligence/935587/aleksander-madry-is-leaving-openai)
+- [Trump delayed signing AI executive order — The Verge](https://www.theverge.com/policy/935694/trump-delayed-signing-ai-executive-order-because-he-didnt-like-certain-aspects-of-it)
+- [Meta layoffs, AI investment offset memo — The Verge](https://www.theverge.com/tech/935163/meta-layoffs-ai-investment-offset-memo)
 
 > **Update Log**
 > - 2026-05-22：首发。覆盖5月22日AI产业事件，含DeepSeek 700亿+Code、李飞飞空间智能基准、智谱最快模型、AI短剧工业化等。海外源今日静默，以国内重磅事件为主。数据综合自量子位等多源交叉验证。
 
 
 ---
-`daily-digest` | `deepseek-700b-funding` | `deepseek-code` | `feifei-li-spatial` | `zhipu-fastest` | `ai-short-drama`
+`daily-digest` | `deepseek-700b-code` | `nvidia-q1-92pct` | `anthropic-microsoft` | `madry-openai` | `trump-ai-order` | `feifei-li-spatial`
