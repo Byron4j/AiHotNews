@@ -1,19 +1,18 @@
 🤖 AI Hot News 今日速报
 
 📌 核心主线：
-5月23日（周六），AI新闻进入周末静默期。值得关注的新进展：Google AI Overviews搜索功能被The Verge深度调查指"严重失灵"——AI无视用户查询，输出无关甚至矛盾的结果。周五的爆炸性消息持续发酵——Anthropic每年向Musk Colossus数据中心支付$150亿算力的AI史上最大合同、英伟达Q1数据中心营收+92%超预期。股
+5月23日（周六），海外AI圈出现两条值得关注的新信号：Anthropic正在将Claude Mythos Preview所用的网络安全工具逐步开放给更多用户——Mythos从"实验室展示"走向"准产品化"；The Verge刊发深度评论指Grok在政府部门的采纳率惨淡——"数据显示政府工作人员不喜欢Musk的聊天机器人，有人喜欢吗？"。股市端，Nvidia
 
-🔥 Google AI搜索被指"失灵"
-🔥 Anthropic $150亿/年Colossus合同持续发酵
-🔥 英伟达Q1数据中心+92%盘后表现
-🔥 Samsung芯片工人罢工以薪水和解
-🔥 Google用Gemini开发首个Android纯AI应用
+🔥 Anthropic逐步开放Mythos安全工具
+🔥 Grok政府部门采纳率惨淡
+🔥 Nvidia财报效应持续
+🔥 Musk-Altman案判决仍待公布
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 💡 二、热点详解
 💡 三、市场局势分析
-💡 四、下周前瞻
+💡 四、即时行动建议
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
